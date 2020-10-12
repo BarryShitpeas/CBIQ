@@ -1,11 +1,12 @@
 <p align="center">
   <img src="img/qibcplot-shiny.png">
 </p>
+
 ## What is qibcPlot-shiny?
 qibcPlot-shiny is the interactive shiny app for the [qibcPlot repo](https://github.com/callum-jpg/qibcPlot).
 
 This app aims to offer users an easy way of generating 3-variable scatter
-plots from CellProfiler output data. More information on using CellProfiler is available [here]()
+plots from CellProfiler output data. More information on using CellProfiler is available [here](https://github.com/callum-jpg/qibcPlot/tree/master/cellprofiler-pipeline).
 
 
 ### What can qibcPlot-shiny do for you?
@@ -27,7 +28,7 @@ Before running the local R Shiny app, Plotly requires some system dependencies:
 Once installed, open `qibcPlot-shiny.R` in RStudio and install the required dependencies:
 - ```install.packages("ggplot2", "plotly", "shiny", "data.table", "RColorBrewer")```
 
-Next, change the working directory of Rstudio to the location of the CellProfiler output `Nuclei.csv` file is found. Then, alter the line at the top of `qibcPlot-shiny.R` to the name of your dataset. Also, adjust the x.axis, y.axis, point.colour, and metadata variables to match the titles of those in your dataset.
+Next, change the working directory of Rstudio to the location of the CellProfiler output `Nuclei.csv` file is found. Then, alter the line at the top of `qibcPlot-shiny.R` to the name of your dataset. Also, adjust the `x.axis`, `y.axis`, `point.colour`, and `metadata` variables to match the titles of those in your dataset.
 
 Finally, highlight the code and press `CTRL+Enter`, or press `Run App`.
 
